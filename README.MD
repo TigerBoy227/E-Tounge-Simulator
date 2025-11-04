@@ -16,12 +16,13 @@
 Buka terminal di direktori proyek dan instal semua dependencies:
 Bashpip install -r requirements.txt
 2. Konfigurasi Kunci API
-PENTING: Kunci API Anda harus diatur sebagai variabel lingkungan (GEMINI_API_KEY) di sistem Anda. Jangan pernah mengunggah kunci ini ke GitHub.
-Kunci Anda: AIzaSyCpQRGo0yWjxo-Bo282yJdEQFp51IEvP8M
+PENTING: Kunci API Anda harus diatur sebagai variabel lingkungan (GEMINI_API_KEY) di sistem Anda.
+
 Cara Konfigurasi (Sebelum Menjalankan Program):
+
 SistemPerintah (Gunakan kunci Anda)
-Windows PowerShell$env:GEMINI_API_KEY="AIzaSyCpQRGo0yWjxo-Bo282yJdEQFp51IEvP8M"
-Linux/macOS (Bash/Zsh)export GEMINI_API_KEY="AIzaSyCpQRGo0yWjxo-Bo282yJdEQFp51IEvP8M"
+Windows PowerShell$env:GEMINI_API_KEY="Kunci GEMINI"
+Linux/macOS (Bash/Zsh)export GEMINI_API_KEY="Kunci GEMINI"
 
 ▶️ Cara Menjalankan Aplikasi
 
@@ -29,3 +30,4 @@ Linux/macOS (Bash/Zsh)export GEMINI_API_KEY="AIzaSyCpQRGo0yWjxo-Bo282yJdEQFp51IE
 python E-Tounge Simulator.py
 
 Aplikasi desktop akan terbuka, dan Anda bisa mulai menganalisis rasa!
+
